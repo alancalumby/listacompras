@@ -12,7 +12,8 @@ import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component'
 import {MatCardModule} from '@angular/material/card';
-import { ListaComprasComponent } from './views/lista-compras/lista-compras.component'
+import { ListaComprasComponent } from './views/lista-compras/lista-compras.component';
+import { ListaComprasAddComponent } from './components/listaCompras/lista-compras-add/lista-compras-add.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ListaComprasComponent } from './views/lista-compras/lista-compras.compo
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ListaComprasComponent
+    ListaComprasComponent,
+    ListaComprasAddComponent
   ],
   imports: [
     BrowserModule,
