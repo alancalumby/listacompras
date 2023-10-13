@@ -11,7 +11,8 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component'
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 import { ListaComprasComponent } from './views/lista-compras/lista-compras.component';
 import { ListaComprasAddComponent } from './components/listaCompras/lista-compras-add/lista-compras-add.component'
 
@@ -32,7 +33,8 @@ import { ListaComprasAddComponent } from './components/listaCompras/lista-compra
     MatToolbarModule,
     MatListModule,
     MatSidenavModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
