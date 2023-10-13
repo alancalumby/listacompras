@@ -1,3 +1,4 @@
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -35,6 +36,7 @@ import { ListaComprasAddComponent } from './components/listaCompras/lista-compra
     MatSidenavModule,
     MatCardModule,
     MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
