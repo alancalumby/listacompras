@@ -11,6 +11,7 @@ import { ItemListaCompra } from '../item-lista-compra-modelo.model';
 export class ListaComprasAddComponent {
 
   item: ItemListaCompra = {
+    id: 0,
     descricao: '',
     comprado: 0
   }

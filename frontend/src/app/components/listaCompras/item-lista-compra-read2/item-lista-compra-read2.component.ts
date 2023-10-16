@@ -2,7 +2,8 @@ import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { MatTable } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
-import { ItemListaCompraRead2DataSource, ItemListaCompraRead2Item } from './item-lista-compra-read2-datasource';
+import { ItemListaCompraRead2DataSource } from './item-lista-compra-read2-datasource';
+import { ItemListaCompra } from '../item-lista-compra-modelo.model';
 
 @Component({
   selector: 'app-item-lista-compra-read2',
@@ -12,11 +13,11 @@ import { ItemListaCompraRead2DataSource, ItemListaCompraRead2Item } from './item
 export class ItemListaCompraRead2Component implements AfterViewInit {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
-  @ViewChild(MatTable) table!: MatTable<ItemListaCompraRead2Item>;
+  @ViewChild(MatTable) table!: MatTable<ItemListaCompra>;
   dataSource = new ItemListaCompraRead2DataSource();
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['id', 'name'];
+  displayedColumns = ['id', 'descricao','comprado'];
 
   ngAfterViewInit(): void {
     this.dataSource.sort = this.sort;
