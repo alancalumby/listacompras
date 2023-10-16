@@ -18,6 +18,7 @@ import { ListaComprasComponent } from './views/lista-compras/lista-compras.compo
 import { ListaComprasAddComponent } from './components/listaCompras/lista-compras-add/lista-compras-add.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { RedDirective } from './directives/red.directive';
     HomeComponent,
     ListaComprasComponent,
     ListaComprasAddComponent,
-    RedDirective
+    RedDirective,
+    ForDirective
   ],
   imports: [
     BrowserModule,
