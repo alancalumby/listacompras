@@ -21,6 +21,9 @@ export class ForDirective implements OnInit {
         this.template,{$implicit: number});
     }
 
+    this.container.createEmbeddedView(
+      this.template,{$implicit: this.texto});
+
   }
 
 }
