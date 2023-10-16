@@ -23,6 +23,7 @@ import { ForDirective } from './directives/for.directive';
 import {FormsModule} from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { ItemListaCompraReadComponent } from './components/listacompras/item-lista-compra-read/item-lista-compra-read.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import {MatInputModule} from '@angular/material/input';
     ListaComprasComponent,
     ListaComprasAddComponent,
     RedDirective,
-    ForDirective
+    ForDirective,
+    ItemListaCompraReadComponent
   ],
   imports: [
     BrowserModule,

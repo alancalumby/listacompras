@@ -1,4 +1,4 @@
-import { ItemListaCompra } from './item-lista-compra.model';
+import { ItemListaCompra } from './item-lista-compra-modelo.model';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
@@ -24,5 +24,9 @@ export class ItemListaCompraService {
 
   add(item: ItemListaCompra): Observable<ItemListaCompra> {
        return this.httpClient.post<ItemListaCompra>(this.baseUrl, item);
+  }
+
+  read(): Observable<ItemListaCompra[]> {
+    return this.httpClient.get<ItemListaCompra[]>(this.baseUrl);
   }
 }
