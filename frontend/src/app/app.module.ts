@@ -24,6 +24,10 @@ import {FormsModule} from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { ItemListaCompraReadComponent } from './components/listacompras/item-lista-compra-read/item-lista-compra-read.component';
+import { ItemListaCompraRead2Component } from './components/listaCompras/item-lista-compra-read2/item-lista-compra-read2.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 
 @NgModule({
@@ -37,7 +41,8 @@ import { ItemListaCompraReadComponent } from './components/listacompras/item-lis
     ListaComprasAddComponent,
     RedDirective,
     ForDirective,
-    ItemListaCompraReadComponent
+    ItemListaCompraReadComponent,
+    ItemListaCompraRead2Component
   ],
   imports: [
     BrowserModule,
@@ -52,7 +57,10 @@ import { ItemListaCompraReadComponent } from './components/listacompras/item-lis
     HttpClientModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
