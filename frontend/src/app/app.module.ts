@@ -20,6 +20,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 
+import {FormsModule} from '@angular/forms';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,7 +47,10 @@ import { ForDirective } from './directives/for.directive';
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
