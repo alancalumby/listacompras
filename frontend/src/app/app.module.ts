@@ -17,6 +17,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { ListaComprasComponent } from './views/lista-compras/lista-compras.component';
 import { ListaComprasAddComponent } from './components/listaCompras/lista-compras-add/lista-compras-add.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RedDirective } from './directives/red.directive';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HttpClientModule } from '@angular/common/http';
     NavComponent,
     HomeComponent,
     ListaComprasComponent,
-    ListaComprasAddComponent
+    ListaComprasAddComponent,
+    RedDirective
   ],
   imports: [
     BrowserModule,
