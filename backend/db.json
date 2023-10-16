@@ -34,6 +34,11 @@
       "id": 7,
       "descricao": "bolacha",
       "comprado": 0
+    },
+    {
+      "descricao": "",
+      "comprado": 0,
+      "id": 8
     }
   ]
 }
