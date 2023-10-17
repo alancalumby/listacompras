@@ -17,6 +17,18 @@ import { MatButtonModule } from '@angular/material/button';
 import { ListaComprasComponent } from './views/lista-compras/lista-compras.component';
 import { ListaComprasAddComponent } from './components/listaCompras/lista-compras-add/lista-compras-add.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive';
+
+import {FormsModule} from '@angular/forms';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import { ItemListaCompraReadComponent } from './components/listacompras/item-lista-compra-read/item-lista-compra-read.component';
+import { ItemListaCompraRead2Component } from './components/listaCompras/item-lista-compra-read2/item-lista-compra-read2.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +38,11 @@ import { HttpClientModule } from '@angular/common/http';
     NavComponent,
     HomeComponent,
     ListaComprasComponent,
-    ListaComprasAddComponent
+    ListaComprasAddComponent,
+    RedDirective,
+    ForDirective,
+    ItemListaCompraReadComponent,
+    ItemListaCompraRead2Component
   ],
   imports: [
     BrowserModule,
@@ -38,7 +54,13 @@ import { HttpClientModule } from '@angular/common/http';
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,5 +1,5 @@
 export interface ItemListaCompra {
-    id?: number
+    id: number
     descricao: string
     comprado: number
 }

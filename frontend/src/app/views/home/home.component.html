@@ -5,4 +5,8 @@
     <mat-card-subtitle class="subtitle">
         Lista de compras pessoal
     </mat-card-subtitle>
+    <ul>
+        <li *myFor="let n em [1,2,3] usando 'Alan'">{{n}}</li>
+        <li *myFor="let text usando 'texto'">{{text}}</li>
+    </ul>
 </mat-card>

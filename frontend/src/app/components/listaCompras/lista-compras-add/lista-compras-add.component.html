@@ -1,3 +1,17 @@
+<mat-card>
+    <mat-card-title>Novo item</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Descricao" 
+                [(ngModel)]="item.descricao" name="Descricao">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Comprado"
+                [(ngModel)]="item.comprado" name="Comprado">
+        </mat-form-field>
+    </form>
+</mat-card>
+
 <button mat-raised-button (click)="addItemListaCompra()" color="primary">
     Salvar
 </button>

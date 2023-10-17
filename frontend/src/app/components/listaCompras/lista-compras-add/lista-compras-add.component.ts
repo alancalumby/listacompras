@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { ItemListaCompraService } from '../item-lista-compra.service';
+import { ItemListaCompraService } from '../item-lista-compra-servico.service';
 import { Router } from '@angular/router';
-import { ItemListaCompra } from '../item-lista-compra.model';
+import { ItemListaCompra } from '../item-lista-compra-modelo.model';
 
 @Component({
   selector: 'app-lista-compras-add',
@@ -11,6 +11,7 @@ import { ItemListaCompra } from '../item-lista-compra.model';
 export class ListaComprasAddComponent {
 
   item: ItemListaCompra = {
+    id: 0,
     descricao: '',
     comprado: 0
   }
