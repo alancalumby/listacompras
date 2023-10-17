@@ -11,6 +11,7 @@ import { ItemListaCompra } from '../item-lista-compra-modelo.model';
 export class ItemListaCompraReadComponent {
 
   itens: ItemListaCompra[] = [];
+  displayedColumns = ['id','descricao','comprado']
 
   constructor(private itemService: ItemListaCompraService) {}
 
