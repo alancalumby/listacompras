@@ -29,4 +29,14 @@ export class ItemListaCompraService {
   read(): Observable<ItemListaCompra[]> {
     return this.httpClient.get<ItemListaCompra[]>(this.baseUrl);
   }
+
+  readById(id: string): Observable<ItemListaCompra> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.httpClient.get<ItemListaCompra>(url);
+  }
+
+  update(item: ItemListaCompra): Observable<ItemListaCompra> {
+    const url = `${this.baseUrl}/${item.id}`;
+    return this.httpClient.put<ItemListaCompra>(url, item);
+  }
 }
