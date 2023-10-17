@@ -31,7 +31,10 @@ export class ItemListaCompraService {
   }
 
   readById(id: string): Observable<ItemListaCompra> {
+    //esta eh uma outra forma de escrever o comando abaixo
+    //const url = this.baseUrl + '/' + id;
     const url = `${this.baseUrl}/${id}`;
+
     return this.httpClient.get<ItemListaCompra>(url);
   }
 

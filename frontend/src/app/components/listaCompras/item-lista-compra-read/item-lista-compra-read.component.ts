@@ -11,6 +11,8 @@ import { ItemListaCompra } from '../item-lista-compra-modelo.model';
 export class ItemListaCompraReadComponent {
 
   itens: ItemListaCompra[] = [];
+
+  item: ItemListaCompra = {id:1,descricao:'a',comprado:1};
   displayedColumns = ['id','descricao','comprado', 'action']
 
   constructor(private itemService: ItemListaCompraService) {}
@@ -19,6 +21,11 @@ export class ItemListaCompraReadComponent {
     this.itemService.read().subscribe(itens => {
       this.itens = itens;
       console.log(itens);
+    } )
+
+    this.itemService.readById('2').subscribe(item => {
+      this.item = item;
+      console.log(item);
     } )
   }
 }
