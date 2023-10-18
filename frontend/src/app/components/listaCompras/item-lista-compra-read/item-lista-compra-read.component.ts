@@ -21,9 +21,9 @@ export class ItemListaCompraReadComponent {
       console.log(itens);
     });
 
-    this.itemService.readById(2).subscribe((item) => {
-      this.item = item;
-      console.log(item);
-    });
+    //this.itemService.readById(2).subscribe((item) => {
+    //  this.item = item;
+    //  console.log(item);
+    //});
   }
 }
