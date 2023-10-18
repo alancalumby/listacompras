@@ -24,7 +24,8 @@ export class ItemListaCompraUpdateComponent {
   ngOnInit(): void {
     //o ! no final do comando serve para nao trazer como retorno o valor NULL (para o caso do parametro nao existir)
     const id: string = this.activatedRoute.snapshot.paramMap.get('id')!;
-    this.itemListaCompraService.readById(id).subscribe((item) => {
+     //o simbolo de + na frente da variavel id faz a conversao do tipo string para o tipo number
+    this.itemListaCompraService.readById(+id).subscribe((item) => {
       this.item = item;
     });
   }

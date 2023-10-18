@@ -6,11 +6,6 @@
       "comprado": 1
     },
     {
-      "id": 2,
-      "descricao": "dasasd",
-      "comprado": 1
-    },
-    {
       "id": 3,
       "descricao": "leite",
       "comprado": 1
@@ -24,21 +19,6 @@
       "id": 5,
       "descricao": "banana",
       "comprado": 1
-    },
-    {
-      "id": 6,
-      "descricao": "queijo",
-      "comprado": 0
-    },
-    {
-      "id": 7,
-      "descricao": "bolacha",
-      "comprado": 0
-    },
-    {
-      "descricao": "",
-      "comprado": 0,
-      "id": 8
     },
     {
       "descricao": "testad",

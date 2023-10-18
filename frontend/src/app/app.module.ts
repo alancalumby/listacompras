@@ -31,7 +31,8 @@ import { MatSortModule } from '@angular/material/sort';
 
 import localePt from '@angular/common/locales/pt';
 import {registerLocaleData} from '@angular/common';
-import { ItemListaCompraUpdateComponent } from './components/listaCompras/item-lista-compra-update/item-lista-compra-update.component' ;
+import { ItemListaCompraUpdateComponent } from './components/listaCompras/item-lista-compra-update/item-lista-compra-update.component';
+import { ItemListaCompraDeleteComponent } from './components/listaCompras/item-lista-compra-delete/item-lista-compra-delete.component' ;
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { ItemListaCompraUpdateComponent } from './components/listaCompras/item-l
     ForDirective,
     ItemListaCompraReadComponent,
     ItemListaCompraRead2Component,
-    ItemListaCompraUpdateComponent
+    ItemListaCompraUpdateComponent,
+    ItemListaCompraDeleteComponent
   ],
   imports: [
     BrowserModule,

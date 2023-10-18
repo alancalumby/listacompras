@@ -1,3 +1,4 @@
+import { ItemListaCompraDeleteComponent } from './components/listaCompras/item-lista-compra-delete/item-lista-compra-delete.component';
 import { ListaComprasAddComponent } from './components/listaCompras/lista-compras-add/lista-compras-add.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: "listaCompras/update/:id",
     component: ItemListaCompraUpdateComponent
+  },
+  {
+    path: "listaCompras/delete/:id",
+    component: ItemListaCompraDeleteComponent
   }
 ];
 
