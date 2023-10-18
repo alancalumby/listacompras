@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './views/home/home.component';
 import { ListaComprasComponent } from './views/lista-compras/lista-compras.component';
+import { ItemListaCompraUpdateComponent } from './components/listaCompras/item-lista-compra-update/item-lista-compra-update.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: "listaCompras/add",
     component: ListaComprasAddComponent
+  },
+  {
+    path: "listaCompras/update/:id",
+    component: ItemListaCompraUpdateComponent
   }
 ];
 

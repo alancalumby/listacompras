@@ -30,7 +30,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 
 import localePt from '@angular/common/locales/pt';
-import {registerLocaleData} from '@angular/common' ;
+import {registerLocaleData} from '@angular/common';
+import { ItemListaCompraUpdateComponent } from './components/listaCompras/item-lista-compra-update/item-lista-compra-update.component' ;
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import {registerLocaleData} from '@angular/common' ;
     RedDirective,
     ForDirective,
     ItemListaCompraReadComponent,
-    ItemListaCompraRead2Component
+    ItemListaCompraRead2Component,
+    ItemListaCompraUpdateComponent
   ],
   imports: [
     BrowserModule,
