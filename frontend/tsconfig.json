@@ -3,7 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./public/listacompras",
+    "outDir": "./dist/frontend",
     "forceConsistentCasingInFileNames": false,
     "strict": true,
     "noImplicitOverride": true,
