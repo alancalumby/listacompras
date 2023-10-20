@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public/listacompras",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
