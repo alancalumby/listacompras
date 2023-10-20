@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "public/listacompras",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
