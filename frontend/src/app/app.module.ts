@@ -20,14 +20,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 
-import {FormsModule} from '@angular/forms';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
+import { FormsModule} from '@angular/forms';
+import { MatFormFieldModule} from '@angular/material/form-field';
+import { MatInputModule} from '@angular/material/input';
 import { ItemListaCompraReadComponent } from './components/listacompras/item-lista-compra-read/item-lista-compra-read.component';
 import { ItemListaCompraRead2Component } from './components/listaCompras/item-lista-compra-read2/item-lista-compra-read2.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 import localePt from '@angular/common/locales/pt';
 import {registerLocaleData} from '@angular/common';
@@ -67,7 +68,8 @@ import { ItemListaCompraDeleteComponent } from './components/listaCompras/item-l
     MatInputModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatCheckboxModule
   ],
   providers: [{
     provide:LOCALE_ID,
