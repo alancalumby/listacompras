@@ -5,10 +5,12 @@
             <input matInput placeholder="Descricao" 
                 [(ngModel)]="item.descricao" name="Descricao">
         </mat-form-field>
-        <mat-form-field>
+        <mat-checkbox placeholder="Comprado"
+                [(ngModel)]="item.comprado" name="Comprado">Comprado?</mat-checkbox>
+        <!-- <mat-form-field>
             <input matInput placeholder="Comprado"
-                [(ngModel)]="item.comprado" name="Comprado">
-        </mat-form-field>
+                [(ngModel)]="item.comprado" name="Comprado">            
+        </mat-form-field> -->
     </form>
 </mat-card>
 

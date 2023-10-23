@@ -1,49 +1,34 @@
 {
   "itensListaCompra": [
     {
-      "id": 1,
-      "descricao": "pao132",
-      "comprado": 1
+      "id": 14,
+      "descricao": "sssss",
+      "comprado": false
     },
     {
-      "id": 3,
-      "descricao": "leite",
-      "comprado": 1
+      "id": 15,
+      "descricao": "dvcxsdfs",
+      "comprado": false
     },
     {
-      "id": 4,
-      "descricao": "uva",
-      "comprado": 0
+      "id": 16,
+      "descricao": "dcsds",
+      "comprado": false
     },
     {
-      "id": 5,
-      "descricao": "banana",
-      "comprado": 1
+      "id": 18,
+      "descricao": "ssdsd",
+      "comprado": false
     },
     {
-      "descricao": "testad",
-      "comprado": 0,
-      "id": 9
+      "id": 19,
+      "descricao": "hj",
+      "comprado": true
     },
     {
-      "id": 10,
-      "descricao": "dfg",
-      "comprado": "0"
-    },
-    {
-      "id": 11,
-      "descricao": "a",
-      "comprado": "1"
-    },
-    {
-      "id": 12,
-      "descricao": "sss",
-      "comprado": "0"
-    },
-    {
-      "id": 13,
-      "descricao": "vc",
-      "comprado": 0
+      "id": 20,
+      "descricao": "dfgdfggdffgd",
+      "comprado": true
     }
   ]
 }
